@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/taskTitle"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/architects_daughter"
+                android:padding="15dp"
+                android:text="@string/task_title"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/return_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_outlined_flag"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/done_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@color/white"
+                android:src="@drawable/ic_baseline_done" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

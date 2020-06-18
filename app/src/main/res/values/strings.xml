@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">To-Do</string>
+
+    <!--appbar appbarMenu-->
+    <string name="search_icon">search</string>
+    <string name="add_icon">add task</string>
+
+    <!--add task custom dialog-->
+    <string name="title_dialog">Add Task in To-Do List</string>
+    <string name="text_dialog">Write a task</string>
+    <string name="button_dialog">Add Task</string>
+
+    <!--Recycler View Default Text-->
+    <string name="default_text">Make your To-Do list</string>
+
+    <!--todoList item-->
+    <string name="task_title">Finish Android Project</string>
+
+</resources>
